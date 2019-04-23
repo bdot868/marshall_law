@@ -85,6 +85,7 @@ footer p {
   text-align: center;
   border-left: 1px solid #ffc107;
   border-right: 1px solid #ffc107;
+  cursor: pointer;
 }
 
 .fab {
