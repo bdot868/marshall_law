@@ -1,40 +1,67 @@
+body {
+  height: 100vh;
+}
+
 h1, h2 {
   text-align: center;
   /* margin-bottom: 60px; */
 }
 .top-half {
-  padding-bottom: 30px;
-  background: #110F10;
+  /* padding-bottom: 30px; */
+  /* background: #0E0203; */
+  /* background: #000; */
   /* background: rgb(5,5,5);
   background: -moz-linear-gradient(top, rgba(5,5,5,1) 12%, rgba(28,28,28,1) 39%, rgba(44,44,44,1) 41%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
   background: -webkit-linear-gradient(top, rgba(5,5,5,1) 12%,rgba(28,28,28,1) 39%,rgba(44,44,44,1) 41%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
   background: linear-gradient(to bottom, rgba(5,5,5,1) 12%,rgba(28,28,28,1) 39%,rgba(44,44,44,1) 41%,rgba(0,0,0,1) 51%,rgba(17,17,17,1) 60%,rgba(43,43,43,1) 76%,rgba(28,28,28,1) 91%,rgba(19,19,19,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#131313',GradientType=0 ); /* IE6-9 */ */
-  padding: 40px;
-  height: 650px;
-  text-align: center;
-  position: relative;
-  padding: 25px;
+  /* padding: 40px; */
+  /* height: 650px; */
+  /* text-align: center; */
+  /* position: relative; */
+  /* padding: 25px; */
 }
-.top-half h1{
-   color: #ffffff;
+
+.hero-sec {
+  background: #000000;
+  /* height: 65vh; */
 }
+
 .logo-img {
   background-image: url("../marshall_law_logo.png");
   background-size: cover;
-  position: relative;
-  height: 100%;
-  width: 43%;
+  /* position: relative; */
+  /* height: 100%; */
+  /* width: 43%; */
   margin: auto;
 }
 
+.img-logo {
+  position: relative;
+  padding: 50px;
+  text-align: center;
+}
+
+.img-logo .img-item {
+  width: 50%;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
 
 .top-half video {
-  position: absolute;
+  /* position: absolute;
   margin: auto;
     top: 25px;
     left: 165px;
-    width: 75%;
+    width: 75%; */
 }
 
 footer p {
@@ -64,8 +91,8 @@ footer p {
   color: #ffc107;
 }
 
-#subscribe .subscribe-text h2 {
-  color: #ffc107;
+#subscribe .subscribe-text h4 {
+  font-size: 1.1rem;
 }
 
 #subscribe .subscribe-link a {
@@ -115,9 +142,9 @@ footer p {
 
 
 @media only screen and (max-width: 600px) {
-  .top-half {
+  /* .top-half {
     display: none;
-  }
+  } */
 
   .mobile-img {
     display: block;
@@ -136,3 +163,10 @@ footer p {
     text-align: center;
   }
 }
+
+/* #logo-section {
+
+} */
+/* video {
+  max-width: 100%;
+} */
