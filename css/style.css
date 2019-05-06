@@ -128,13 +128,14 @@ footer p {
 
 .social-icons {
   text-align: center;
-  border-left: 1px solid #ffc107;
-  border-right: 1px solid #ffc107;
+  /* border-left: 1px solid #ffc107;
+  border-right: 1px solid #ffc107; */
   cursor: pointer;
 }
 
 .fab {
   font-size: 5rem;
+  color: #212529;
 }
 .fab:hover {
   color: #ffc107;
