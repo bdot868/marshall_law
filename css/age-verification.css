@@ -53,12 +53,14 @@ box-shadow: 15px 13px 38px -4px rgba(0,0,0,0.75);
 #modal_content h2 {
 	margin: 0 0 0 0;
 	font:normal 15px/1.3em 'Gill Sans W01 Medium', Helvetica,arial,sans-serif;
+	color: #ffffff;
 }
 
 #modal_content p {
 	max-width: 75%;
 	margin: 1.2em auto 0;
 	font:11px/1.5em "proxima-nova", Helvetica,arial,sans-serif;
+	color: #ffffff;
 }
 
 #modal_content nav {font-size: 16px; display:table; width: 282px;}
@@ -137,13 +139,11 @@ box-shadow: 15px 13px 38px -4px rgba(0,0,0,0.75);
 	#modal_content h2 {
 		margin: 0 0 0 0;
 		font-size: 1.875em;
-		color: #ffffff;
 	}
 
 	#modal_content p {
 		font-size: 1em;
 		line-height: 1.9em;
-		color: #ffffff;
 	}
 
 	#modal_content nav {width: 396px;}
@@ -152,5 +152,14 @@ box-shadow: 15px 13px 38px -4px rgba(0,0,0,0.75);
 		padding:1em 2.5em;
 		margin:1.6em auto 0;
 		font-size: 1em;
+	}
+}
+
+@media (max-width: 575.98px) {
+	#modal_screen {
+		background-size: cover;
+	}
+	#modal_content nav a.av_btn {
+		width: 25vw;
 	}
 }
