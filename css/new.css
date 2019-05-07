@@ -1,0 +1,249 @@
+h1, h2 {
+  text-align: center;
+}
+
+.hero-sec {
+  background: #000000;
+  /* height: 65vh; */
+}
+
+.img-logo {
+  position: relative;
+  height: 55vh;
+  padding: 50px;
+  text-align: center;
+}
+/* .img-logo {
+} */
+
+/* .img-logo .img-item {
+} */
+.img-logo .img-item {
+  width: 100%;
+  display: none;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer p {
+  font-size: 10px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.mobile-img {
+  display: none;
+}
+
+#subscribe {
+  padding: 20px;
+  background: #110F10;
+}
+
+#subscribe .subscribe-content {
+  display: inherit;
+  margin: auto;
+}
+
+#subscribe .subscribe-text {
+  margin: auto 30px;
+  color: #ffc107;
+}
+
+#subscribe .subscribe-text h4 {
+  font-size: 1.1rem;
+}
+
+#subscribe .subscribe-link a {
+  /* width: 12rem; */
+  font-weight: 600;
+  border: 1px solid #ffc107;
+  border-radius: 20px;
+  background-color: #ffc107;
+}
+
+#subscribe .subscribe-link a:hover {
+  background: #110F10;
+  color: #ffc107;
+}
+
+#bottom-content {
+  padding: 30px 0;
+  background: #f9ecc2;
+}
+
+.tagline, .blend {
+  padding: 20px;
+}
+
+ /* .blend {
+  padding: 20px;
+  border-left: 1px solid #ffc107;
+  border-right: 1px solid #ffc107;
+} */
+.blend h2, .tagline h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+}
+
+.social-icons {
+  text-align: center;
+  /* border-left: 1px solid #ffc107;
+  border-right: 1px solid #ffc107; */
+  cursor: pointer;
+}
+
+.fab {
+  font-size: 5rem;
+  color: #212529;
+}
+.fab:hover {
+  color: #ffc107;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .tagline, .blend {
+    padding: 0;
+  }
+
+  .blend h2, .tagline h2 {
+    font-size: 1.5rem;
+  }
+
+  #subscribe {
+    padding: 10px;
+  }
+  #subscribe .subscribe-content {
+    display: block;
+    margin: auto;
+  }
+  #subscribe .subscribe-text {
+    margin: 15px 30px;
+    text-align: center;
+  }
+
+  #subscribe .subscribe-link {
+    text-align: center;
+  }
+  #subscribe .subscribe-link a {
+    border-radius: 5px;
+  }
+
+  #bottom-content {
+    padding: 15px 0;
+  }
+
+  .fab {
+    font-size: 4rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .img-logo .img-item {
+    width: 50%;
+  }
+  #bottom-content {
+    padding: 20px 0;
+  }
+  .tagline, .blend {
+    width: 40%
+  }
+  .ig {
+    width: 20%;
+  }
+
+  .blend h2, .tagline h2 {
+    font-size: 1.5rem;
+  }
+  #subscribe {
+    padding: 10px;
+  }
+
+  #subscribe .subscribe-content {
+    display: block;
+    margin: auto;
+  }
+  #subscribe .subscribe-text {
+    margin: 15px 30px;
+    text-align: center;
+  }
+  #subscribe .subscribe-text h4 {
+    font-size: 1.5rem;
+  }
+
+  #subscribe .subscribe-link {
+    text-align: center;
+  }
+  #subscribe .subscribe-link a {
+    border-radius: 5px;
+  }
+  /* #subscribe .subscribe-link, #subscribe .subscribe-text {
+    width: 100%;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .img-logo {
+    height: 530px;
+    width: 100%;
+  }
+
+  .img-logo .img-item {
+    width: 100%;
+  }
+  .blend h2, .tagline h2 {
+    font-size: 2rem;
+  }
+  #subscribe {
+    padding: 20px;
+  }
+  #subscribe .subscribe-content {
+    display: block;
+    margin: auto;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .img-logo .img-item {
+    width: 50%;
+  }
+  #subscribe .subscribe-content {
+    display: inherit;
+    margin: auto;
+  }
+
+  #subscribe .subscribe-text {
+    margin: auto 30px;
+    color: #ffc107;
+  }
+
+  #subscribe .subscribe-text h4 {
+    font-size: 1.1rem;
+  }
+
+  #subscribe .subscribe-link a {
+    /* width: 12rem; */
+    font-weight: 600;
+    border: 1px solid #ffc107;
+    border-radius: 20px;
+    background-color: #ffc107;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

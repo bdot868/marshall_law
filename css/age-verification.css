@@ -83,7 +83,7 @@ box-shadow: 15px 13px 38px -4px rgba(0,0,0,0.75);
 #modal_content nav a.av_btn {
 	display:block;
 	text-align:center;
-	width: 150px;
+	width: 75%;
 	border-radius: 10px;
 	margin:1em auto 0;
 	text-decoration: none;
@@ -160,6 +160,6 @@ box-shadow: 15px 13px 38px -4px rgba(0,0,0,0.75);
 		background-size: cover;
 	}
 	#modal_content nav a.av_btn {
-		width: 25vw;
+		/* width: 25vw; */
 	}
 }
